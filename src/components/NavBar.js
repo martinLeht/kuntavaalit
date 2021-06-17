@@ -70,16 +70,6 @@ class NavBar extends Component {
                     <MDBNavbarToggler onClick={this.toggleCollapse} />
                     <MDBCollapse className="justify-content-end" id="navigation" isOpen={this.state.isOpen} navbar>
                         <MDBNavbarNav right>
-                        <MDBDropdown>
-                            <MDBDropdownToggle caret color="">
-                                Kuntavaalit 2021
-                            </MDBDropdownToggle>
-                            <MDBDropdownMenu>
-                                <MDBDropdownItem><NavItem item="Vaaliteemat" navId="section-themes" /></MDBDropdownItem>
-                                <MDBDropdownItem><NavItem item="Ehdolle" navId="section-about" /></MDBDropdownItem>
-                                <MDBDropdownItem><NavItem item="Ota Yhteyttä" navId="section-contact" /></MDBDropdownItem>
-                            </MDBDropdownMenu>
-                        </MDBDropdown>
                             <NavItem item="Vaaliteemat" navId="section-themes" />
                             <NavItem item="Ehdolle" navId="section-about" />
                             <NavItem item="Ota Yhteyttä" navId="section-contact" />
